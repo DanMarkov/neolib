@@ -130,15 +130,14 @@ body {
   justify-items: center;
   grid-template-columns: 1fr;
   font-size: 2.7rem;
-  border: 1px solid rgb(0, 34, 50);
-  background: rgb(232, 226, 226) none repeat scroll 0% 0%;
+  background: #d96459;
   letter-spacing: 4px;
   border-radius: 0 0 10px 10px;
   box-shadow: rgb(237, 249, 255) 0px 0px 1px inset;
 }
 
 .header a {
-  color: var(--firstColor);
+  color: #ffffff;
 }
 
 .header>div:nth-child(3) {
@@ -294,3 +293,75 @@ body {
   padding: 20px;
   overflow: auto;
 }
+
+
+.page {
+  display: grid;
+  grid-column-gap: 100%;
+  max-width: 1280px;
+  height: 750px;
+  border: 2px solid #d4d4d4;
+  margin: 50px auto 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgb(222 169 73);
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px 35px;
+  font-size: 18px;
+  color: #ffffff;
+  border: 2px solid #000000;
+  background-color: #4e596c;
+}
+
+select:focus {
+  outline: none;
+}
+
+.right {
+  overflow: auto;
+  padding-right: 30px;
+}
+
+.right h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e4e4e4;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-column-gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e4e4e4;
+  padding-bottom: 10px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.book p {
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+
+p.name {
+  font-size: 20px;
+}
+
+p.added_on {
+  font-size: 16px;
+}
+
+
+
